@@ -3,7 +3,7 @@
 Tool to convert journalctl --output verbose to journalctl --output export
 
 ## Use case:
-  As a developer, I want to query the docker logging from a given set of sosreport artifacts
+  As a developer, I want to query the docker logging from a given set of sosreport artifacts using journalctl
 
 
 ## Usage:
@@ -15,4 +15,4 @@ Tool to convert journalctl --output verbose to journalctl --output export
 ```
 
 ## Bugs:
-      - Most exceptions not related to reading from stdin will cause script to fail.
+ * Most exceptions not related to reading from stdin will cause script to fail.
